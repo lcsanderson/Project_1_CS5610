@@ -8,4 +8,22 @@ h1 {
   font-size: 128px;
 }
 
+.welcome-text {
+  color: #ff0000;
+  font-family: Crimson Text;
+  font-size: 48px;
+  font-weight: 100;
+  font-style: italic;
+}
 
+.text-button {
+  color: white;
+  font-family: Crimson Text;
+  font-size: 48px;
+  font-weight: 100;
+  font-style: italic;
+  text-decoration: none;
+}
+a.text-button:hover {
+  color: paleturquoise;
+}
