@@ -5,14 +5,14 @@ body {
 h1 {
   color: #ff0000;
   font-family: Archivo;
-  font-size: 8rem; /* 128px */
+  font-size: 8em; /* 128px */
   align-content: center;
 }
 
 .welcome-text {
   color: #ff0000;
   font-family: Crimson Text;
-  font-size: 3rem; /* 48px */
+  font-size: 3em; /* 48px */
   font-weight: 100;
   font-style: italic;
 }
@@ -20,7 +20,7 @@ h1 {
 .text-button {
   color: white;
   font-family: Crimson Text;
-  font-size: 48px;
+  font-size: 3em; /* 48px */
   font-weight: 100;
   font-style: italic;
   text-decoration: none;
