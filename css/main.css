@@ -2,6 +2,13 @@ body {
   background-color: #600404;
   min-height: 100vh;
   overflow-x: hidden;
+  animation: fadeIn 0.5s ease-in-out; /* used for creating soft transition between pages*/
+}
+
+@keyframes fadeIn {
+  /* allows for fade-in-out effect to create a soft transition*/
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 h1 {
@@ -32,7 +39,7 @@ a.text-button:hover {
 }
 
 .welcome-stack {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
