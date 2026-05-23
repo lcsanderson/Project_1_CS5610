@@ -18,10 +18,25 @@ h1 {
   align-content: center;
 }
 
+.h2-like-h1{
+  color: #ff0000;
+  font-family: Archivo;
+  font-size: 8rem; /* 128 */
+  align-content: center;
+}
+
 .welcome-text {
   color: #ff0000;
   font-family: Crimson Text;
   font-size: 3rem; /* 48px */
+  font-weight: 100;
+  font-style: italic;
+}
+
+.about-text{
+  color: #ff0000;
+  font-family: Crimson Text;
+  font-size: 2.25rem; /* 36px */
   font-weight: 100;
   font-style: italic;
 }
