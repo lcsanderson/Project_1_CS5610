@@ -39,6 +39,7 @@ h1 {
   font-size: 2.25rem; /* 36px */
   font-weight: 100;
   font-style: italic;
+  text-align: justify;
 }
 
 .text-button {
@@ -57,4 +58,16 @@ a.text-button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.movie-button {
+  color: white;
+  font-family: Crimson Text;
+  font-size: 3rem; /* 48px */
+  font-weight: 100;
+  text-decoration: none;
+  font-variant: small-caps;
+}
+a.movie-button:hover {
+  color: rgb(143, 143, 143);
 }
