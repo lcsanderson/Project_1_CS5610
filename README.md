@@ -15,3 +15,6 @@ I used Claude Sonnet 4.6 for help on this project. Outside of general debugging,
 "lets keep the tones all red, the font styling (including color) the same as original, but include your sparkly star system. what about making the cursor position more subtle, and also a four point star?"
 
 "what if the four point star was solid and translucent"
+
+**_ Link to walk-through recording: _**
+https://drive.google.com/file/d/1LlD9EMUADItPkec4y9URrK0bG1HkS0cZ/view?usp=sharing
