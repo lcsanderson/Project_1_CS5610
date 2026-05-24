@@ -71,3 +71,31 @@ a.text-button:hover {
 a.movie-button:hover {
   color: rgb(116, 132, 85);
 }
+
+.navbar {
+  font-family: Crimson Text;
+  font-weight: 100;
+  font-variant: small-caps;
+  margin-top: 1vh;
+  padding-bottom: 0px;
+}
+
+.nav-item {
+  color:aliceblue;
+  font-size: 1.5rem; /* 24px */
+  text-decoration: none;
+}
+
+a.nav-item:hover {
+  color: #ff0000;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  background-color: #600404;
+  margin-left: 0px;
+  width: 100vw;
+  z-index: 100;
+  padding-bottom: 5px;
+}
