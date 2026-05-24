@@ -1,8 +1,7 @@
-Author: Logan Sanderson
-Class: CS 5610 Summer 2026
-Project Objective: In this assignment you will be implementing your homepage using vanilla HTML5, CSS3 and ES6+. This should be a front-end only static page, so you shouldn't be using a backend or any components libraries.
-
-AI Usage:
+**_ Author: _** Logan Sanderson
+**_ Class: _** CS 5610 Summer 2026
+**_ Project Objective: _** In this assignment you will be implementing your homepage using vanilla HTML5, CSS3 and ES6+. This should be a front-end only static page, so you shouldn't be using a backend or any components libraries.
+**_ No build instructions. _**
 
 **_ AI Generated Page _**
 
