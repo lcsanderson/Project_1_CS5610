@@ -5,15 +5,19 @@ body {
   animation: fadeIn 0.5s ease-in-out; /* used for creating soft transition between pages*/
 }
 
-.body-inside{
+.body-inside {
   margin-left: 100px;
   margin-bottom: 50px;
 }
 
 @keyframes fadeIn {
   /* allows for fade-in-out effect to create a soft transition*/
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 h1 {
@@ -23,7 +27,7 @@ h1 {
   align-content: center;
 }
 
-.h2-like-h1{
+.h2-like-h1 {
   color: #ff0000;
   font-family: Archivo;
   font-size: 8rem; /* 128 */
@@ -38,7 +42,7 @@ h1 {
   font-style: italic;
 }
 
-.about-text{
+.about-text {
   color: #ff0000;
   font-family: Crimson Text;
   font-size: 2.25rem; /* 36px */
@@ -87,7 +91,17 @@ a.movie-button:hover {
   font-family: Crimson Text;
   font-weight: 100;
   font-variant: small-caps;
-  color:aliceblue;
+  color: aliceblue;
+  font-size: 1.5rem; /* 24px */
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+.nav-item-selected {
+  font-family: Crimson Text;
+  font-weight: 100;
+  font-variant: small-caps;
+  color: aliceblue;
   font-size: 1.5rem; /* 24px */
   text-decoration: none;
   margin-right: 8px;
@@ -95,6 +109,10 @@ a.movie-button:hover {
 
 a.nav-item:hover {
   color: #ff0000;
+}
+
+a.nav-item-selected:hover {
+  color: rgb(116, 132, 85);
 }
 
 header {
