@@ -124,3 +124,57 @@ header {
   z-index: 100;
   padding-bottom: 5px;
 }
+
+/* ----------------CLAUDE CODE----------------*/
+
+/* star field container */
+#star-field {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* individual stars */
+.star {
+  position: absolute;
+  font-family: "Crimson Text", serif;
+  line-height: 1;
+  animation: sparkle var(--dur) ease-in-out infinite;
+  animation-delay: var(--delay);
+  opacity: 0;
+  transform-origin: center;
+  will-change: opacity, transform;
+}
+
+@keyframes sparkle {
+  0%   { opacity: 0;    transform: scale(0.6)  rotate(0deg);  }
+  20%  { opacity: 0.85; transform: scale(1.15) rotate(6deg);  }
+  50%  { opacity: 0.3;  transform: scale(0.8)  rotate(-4deg); }
+  75%  { opacity: 0.95; transform: scale(1.1)  rotate(3deg);  }
+  100% { opacity: 0;    transform: scale(0.6)  rotate(0deg);  }
+}
+
+/* four-point cursor star */
+#star-cursor {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+#star-cursor svg {
+  width: 100%;
+  height: 100%;
+  animation: cursorSpin 8s linear infinite;
+}
+
+@keyframes cursorSpin {
+  from { transform: rotate(0deg);   }
+  to   { transform: rotate(360deg); }
+}
+/* ----------------CLAUDE CODE END----------------*/
