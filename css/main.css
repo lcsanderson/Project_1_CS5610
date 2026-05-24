@@ -1,11 +1,5 @@
 body {
   background-color: #600404;
-  background-image: radial-gradient(
-    circle 150px at 50% 50%,
-    #F6AE2D 0%,
-    transparent 100%,
-  );
-  background-attachment: fixed;
   min-height: 100vh;
   overflow-x: hidden;
   animation: fadeIn 0.5s ease-in-out; /* used for creating soft transition between pages*/

@@ -8,11 +8,3 @@ document.querySelector("a.text-button").addEventListener("click", (e) => {
     window.location.href = destination;
   }, 500);
 });
-
-document.addEventListener("mousemove", (e) => {
-  document.body.style.backgroundImage = `radial-gradient(
-    circle 150px at ${e.clientX}px ${e.clientY}px,
-    #F6AE2D 0%,
-    transparent 100%
-  )`;
-});
