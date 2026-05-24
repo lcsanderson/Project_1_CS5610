@@ -61,7 +61,7 @@ a.text-button:hover {
 }
 
 .movie-button {
-  color: white;
+  color: #ff0000;
   font-family: Crimson Text;
   font-size: 3rem; /* 48px */
   font-weight: 100;
@@ -69,5 +69,5 @@ a.text-button:hover {
   font-variant: small-caps;
 }
 a.movie-button:hover {
-  color: rgb(143, 143, 143);
+  color: rgb(116, 132, 85);
 }
