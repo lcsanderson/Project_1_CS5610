@@ -5,6 +5,11 @@ body {
   animation: fadeIn 0.5s ease-in-out; /* used for creating soft transition between pages*/
 }
 
+.body-inside{
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
 @keyframes fadeIn {
   /* allows for fade-in-out effect to create a soft transition*/
   from { opacity: 0; }
@@ -43,15 +48,16 @@ h1 {
 }
 
 .text-button {
-  color: white;
+  color: aliceblue;
   font-family: Crimson Text;
   font-size: 3rem; /* 48px */
   font-weight: 100;
   font-style: italic;
   text-decoration: none;
 }
+
 a.text-button:hover {
-  color: paleturquoise;
+  color: #ff0000;
 }
 
 .welcome-stack {
@@ -73,17 +79,18 @@ a.movie-button:hover {
 }
 
 .navbar {
-  font-family: Crimson Text;
-  font-weight: 100;
-  font-variant: small-caps;
   margin-top: 1vh;
   padding-bottom: 0px;
 }
 
 .nav-item {
+  font-family: Crimson Text;
+  font-weight: 100;
+  font-variant: small-caps;
   color:aliceblue;
   font-size: 1.5rem; /* 24px */
   text-decoration: none;
+  margin-right: 8px;
 }
 
 a.nav-item:hover {
