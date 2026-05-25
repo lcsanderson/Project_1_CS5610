@@ -18,3 +18,6 @@ I used Claude Sonnet 4.6 for help on this project. Outside of general debugging,
 
 **_ Link to walk-through recording: _**
 https://drive.google.com/file/d/1LlD9EMUADItPkec4y9URrK0bG1HkS0cZ/view?usp=sharing
+
+**_ LINK TO PAGE: _**
+https://lcsanderson.github.io/Project_1_CS5610/index.html
