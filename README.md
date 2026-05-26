@@ -21,3 +21,9 @@ https://drive.google.com/file/d/1LlD9EMUADItPkec4y9URrK0bG1HkS0cZ/view?usp=shari
 
 **_ LINK TO PAGE: _**
 https://lcsanderson.github.io/Project_1_CS5610/index.html
+
+**_ LINK TO DESIGN DOCUMENT _**
+https://www.figma.com/design/StHGKxwq6R2Od6SXifC2WB/Project-1-CS-5610?node-id=0-1&t=zP0qCWRkZpJ6b9Ds-1
+
+**_ LINK TO THUMBNAIL _**
+https://drive.google.com/file/d/1hNFW-xkAORNBUUQ4BDJMSLNn8Vj5PqY2/view?usp=share_link
