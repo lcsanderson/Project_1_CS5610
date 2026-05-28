@@ -1,4 +1,6 @@
 //-----------CLAUDE CODE------------------------
+
+// unclear here what is your code and what is AI generated or everything is AI generated?
 // generate star field
 const glyphs = ['+', '*', 'º', '†', '˙', '˚', '·', '×'];
 const colors = ['#ff0000', '#c00000', '#800404', '#ff4444', '#de0000'];
