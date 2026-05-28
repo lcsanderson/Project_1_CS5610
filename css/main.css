@@ -9,7 +9,7 @@ body {
   margin-left: 100px;
   margin-bottom: 50px;
 }
-
+/*This is a nice feature to have for a transition that I should of put in my project.*/
 @keyframes fadeIn {
   /* allows for fade-in-out effect to create a soft transition*/
   from {
